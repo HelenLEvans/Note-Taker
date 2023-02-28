@@ -1,6 +1,8 @@
 [
-    {
-        "title":"Test Title",
-        "text":"Test text"
-    }
+  { "id": "Duke", "title": "Test Title", "text": "Test text" },
+  {
+    "title": "More notes",
+    "text": "even more notes!\n",
+    "id": "84683bde-6ee5-487a-85ee-186a6dbe9db7"
+  }
 ]
