@@ -33,6 +33,17 @@ class Store {
         return newNote;
       });
   }
+  deleteNote(id) {
+    return this.getNotes()
+      .then((notes) => {
+        return notes.filter((note) => {
+          return note.id !== id;
+        });
+      })
+      .then((updatedNotes) => {
+        return this.write(updatedNotes);
+      });
+  }
 }
 
 module.exports = new Store();
